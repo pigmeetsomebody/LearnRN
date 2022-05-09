@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193CA51B282176270092FC71 /* looks1056.json in Resources */ = {isa = PBXBuildFile; fileRef = 193CA51A282176270092FC71 /* looks1056.json */; };
+		195FCE6928129F21004B32B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCE6828129F21004B32B8 /* AppDelegate.swift */; };
+		195FCE7228129F23004B32B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195FCE7128129F23004B32B8 /* Assets.xcassets */; };
+		195FCE7528129F23004B32B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195FCE7328129F23004B32B8 /* LaunchScreen.storyboard */; };
+		195FCE8028129F23004B32B8 /* FashionInspirationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCE7F28129F23004B32B8 /* FashionInspirationTests.swift */; };
+		195FCE8A28129F23004B32B8 /* FashionInspirationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCE8928129F23004B32B8 /* FashionInspirationUITests.swift */; };
+		195FCE8C28129F23004B32B8 /* FashionInspirationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCE8B28129F23004B32B8 /* FashionInspirationUITestsLaunchTests.swift */; };
+		195FCEA72812A212004B32B8 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCE9A2812A212004B32B8 /* Types.swift */; };
+		195FCEA82812A212004B32B8 /* AnimatedTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCE9C2812A212004B32B8 /* AnimatedTab.swift */; };
+		195FCEA92812A212004B32B8 /* CenterItemSubOptionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCE9D2812A212004B32B8 /* CenterItemSubOptionItem.swift */; };
+		195FCEAA2812A212004B32B8 /* AnimatedTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCE9E2812A212004B32B8 /* AnimatedTabItem.swift */; };
+		195FCEAB2812A212004B32B8 /* BackgroundStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCE9F2812A212004B32B8 /* BackgroundStackView.swift */; };
+		195FCEAC2812A212004B32B8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEA12812A212004B32B8 /* UIView.swift */; };
+		195FCEAD2812A212004B32B8 /* AnimatedTabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEA32812A212004B32B8 /* AnimatedTabBarDelegate.swift */; };
+		195FCEAE2812A212004B32B8 /* NSVAnimatedTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEA42812A212004B32B8 /* NSVAnimatedTabController.swift */; };
+		195FCEAF2812A212004B32B8 /* AnimatedTabOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEA62812A212004B32B8 /* AnimatedTabOptions.swift */; };
+		195FCEB42812A64A004B32B8 /* HomeLooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEB32812A64A004B32B8 /* HomeLooksViewController.swift */; };
+		195FCEB62812A67C004B32B8 /* HomeCategorysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEB52812A67C004B32B8 /* HomeCategorysViewController.swift */; };
+		195FCEB82812A6EA004B32B8 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEB72812A6EA004B32B8 /* MainNavigationController.swift */; };
+		195FCEBA2812A7A1004B32B8 /* MainHomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEB92812A7A1004B32B8 /* MainHomeTabViewController.swift */; };
+		195FCEBC2812AC55004B32B8 /* AnimatedTabOptionsImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEBB2812AC55004B32B8 /* AnimatedTabOptionsImplementation.swift */; };
+		195FCEC32812CB1B004B32B8 /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEBF2812CB1B004B32B8 /* ViewManager.swift */; };
+		195FCEC42812CB1B004B32B8 /* ZLSwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEC02812CB1B004B32B8 /* ZLSwipeableView.swift */; };
+		195FCEC52812CB1B004B32B8 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEC12812CB1B004B32B8 /* Scheduler.swift */; };
+		195FCEC62812CB1B004B32B8 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEC22812CB1B004B32B8 /* Direction.swift */; };
+		195FCEC9281384B2004B32B8 /* LookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEC8281384B2004B32B8 /* LookModel.swift */; };
+		195FCED0281398F6004B32B8 /* LookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCECF281398F6004B32B8 /* LookViewModel.swift */; };
+		195FCEEB2813A4F7004B32B8 /* looks.json in Resources */ = {isa = PBXBuildFile; fileRef = 195FCEE42813A4F7004B32B8 /* looks.json */; };
+		195FCEED2813C737004B32B8 /* LookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEEC2813C737004B32B8 /* LookCardView.swift */; };
+		195FCEEF281550B1004B32B8 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEEE281550B1004B32B8 /* BlurView.swift */; };
+		195FCEF2281550D8004B32B8 /* BlurImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FCEF1281550D8004B32B8 /* BlurImageView.swift */; };
+		55DF3E9CB9A031C34F03B038 /* Pods_FashionInspiration_FashionInspirationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1950A36813688037B0EA7F34 /* Pods_FashionInspiration_FashionInspirationUITests.framework */; };
+		6E932D5E0721B88F336F4F42 /* Pods_FashionInspiration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F480525411FD05F865CD2F1A /* Pods_FashionInspiration.framework */; };
+		FAF3707AB73326A405DC4A64 /* Pods_FashionInspirationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4B7B471791DC31B45BEA88 /* Pods_FashionInspirationTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		195FCE7C28129F23004B32B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195FCE5D28129F21004B32B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195FCE6428129F21004B32B8;
+			remoteInfo = FashionInspiration;
+		};
+		195FCE8628129F23004B32B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195FCE5D28129F21004B32B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195FCE6428129F21004B32B8;
+			remoteInfo = FashionInspiration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		193CA51A282176270092FC71 /* looks1056.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = looks1056.json; sourceTree = "<group>"; };
+		1950A36813688037B0EA7F34 /* Pods_FashionInspiration_FashionInspirationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FashionInspiration_FashionInspirationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		195FCE6528129F21004B32B8 /* FashionInspiration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionInspiration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195FCE6828129F21004B32B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		195FCE7128129F23004B32B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195FCE7428129F23004B32B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		195FCE7628129F23004B32B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195FCE7B28129F23004B32B8 /* FashionInspirationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionInspirationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195FCE7F28129F23004B32B8 /* FashionInspirationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionInspirationTests.swift; sourceTree = "<group>"; };
+		195FCE8528129F23004B32B8 /* FashionInspirationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionInspirationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195FCE8928129F23004B32B8 /* FashionInspirationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionInspirationUITests.swift; sourceTree = "<group>"; };
+		195FCE8B28129F23004B32B8 /* FashionInspirationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionInspirationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		195FCE9A2812A212004B32B8 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		195FCE9C2812A212004B32B8 /* AnimatedTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTab.swift; sourceTree = "<group>"; };
+		195FCE9D2812A212004B32B8 /* CenterItemSubOptionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterItemSubOptionItem.swift; sourceTree = "<group>"; };
+		195FCE9E2812A212004B32B8 /* AnimatedTabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTabItem.swift; sourceTree = "<group>"; };
+		195FCE9F2812A212004B32B8 /* BackgroundStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundStackView.swift; sourceTree = "<group>"; };
+		195FCEA12812A212004B32B8 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		195FCEA32812A212004B32B8 /* AnimatedTabBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTabBarDelegate.swift; sourceTree = "<group>"; };
+		195FCEA42812A212004B32B8 /* NSVAnimatedTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSVAnimatedTabController.swift; sourceTree = "<group>"; };
+		195FCEA62812A212004B32B8 /* AnimatedTabOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTabOptions.swift; sourceTree = "<group>"; };
+		195FCEB32812A64A004B32B8 /* HomeLooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLooksViewController.swift; sourceTree = "<group>"; };
+		195FCEB52812A67C004B32B8 /* HomeCategorysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategorysViewController.swift; sourceTree = "<group>"; };
+		195FCEB72812A6EA004B32B8 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		195FCEB92812A7A1004B32B8 /* MainHomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeTabViewController.swift; sourceTree = "<group>"; };
+		195FCEBB2812AC55004B32B8 /* AnimatedTabOptionsImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabOptionsImplementation.swift; sourceTree = "<group>"; };
+		195FCEBF2812CB1B004B32B8 /* ViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
+		195FCEC02812CB1B004B32B8 /* ZLSwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSwipeableView.swift; sourceTree = "<group>"; };
+		195FCEC12812CB1B004B32B8 /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		195FCEC22812CB1B004B32B8 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		195FCEC8281384B2004B32B8 /* LookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookModel.swift; sourceTree = "<group>"; };
+		195FCECF281398F6004B32B8 /* LookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookViewModel.swift; sourceTree = "<group>"; };
+		195FCEE42813A4F7004B32B8 /* looks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = looks.json; sourceTree = "<group>"; };
+		195FCEEC2813C737004B32B8 /* LookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookCardView.swift; sourceTree = "<group>"; };
+		195FCEEE281550B1004B32B8 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		195FCEF1281550D8004B32B8 /* BlurImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurImageView.swift; sourceTree = "<group>"; };
+		3BAC32E041AA44122E94E852 /* Pods-FashionInspirationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionInspirationTests.debug.xcconfig"; path = "Target Support Files/Pods-FashionInspirationTests/Pods-FashionInspirationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68E1B528222D2CA2F566E628 /* Pods-FashionInspiration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionInspiration.debug.xcconfig"; path = "Target Support Files/Pods-FashionInspiration/Pods-FashionInspiration.debug.xcconfig"; sourceTree = "<group>"; };
+		6EDC321E64A0A5A79EE0B18D /* Pods-FashionInspiration-FashionInspirationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionInspiration-FashionInspirationUITests.debug.xcconfig"; path = "Target Support Files/Pods-FashionInspiration-FashionInspirationUITests/Pods-FashionInspiration-FashionInspirationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73B97416B6BA2B9353E48BCA /* Pods-FashionInspirationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionInspirationTests.release.xcconfig"; path = "Target Support Files/Pods-FashionInspirationTests/Pods-FashionInspirationTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C4B7B471791DC31B45BEA88 /* Pods_FashionInspirationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FashionInspirationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA18D18AAF691A3235BB19FE /* Pods-FashionInspiration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionInspiration.release.xcconfig"; path = "Target Support Files/Pods-FashionInspiration/Pods-FashionInspiration.release.xcconfig"; sourceTree = "<group>"; };
+		EA03126DB6FAE888D2A9BE21 /* Pods-FashionInspiration-FashionInspirationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionInspiration-FashionInspirationUITests.release.xcconfig"; path = "Target Support Files/Pods-FashionInspiration-FashionInspirationUITests/Pods-FashionInspiration-FashionInspirationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F480525411FD05F865CD2F1A /* Pods_FashionInspiration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FashionInspiration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195FCE6228129F21004B32B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E932D5E0721B88F336F4F42 /* Pods_FashionInspiration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FCE7828129F23004B32B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF3707AB73326A405DC4A64 /* Pods_FashionInspirationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FCE8228129F23004B32B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DF3E9CB9A031C34F03B038 /* Pods_FashionInspiration_FashionInspirationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195FCE5C28129F21004B32B8 = {
+			isa = PBXGroup;
+			children = (
+				195FCE6728129F21004B32B8 /* FashionInspiration */,
+				195FCE7E28129F23004B32B8 /* FashionInspirationTests */,
+				195FCE8828129F23004B32B8 /* FashionInspirationUITests */,
+				195FCE6628129F21004B32B8 /* Products */,
+				9BCE83CC766185807FAC5582 /* Pods */,
+				333396EAC39B7481627BFEC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		195FCE6628129F21004B32B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				195FCE6528129F21004B32B8 /* FashionInspiration.app */,
+				195FCE7B28129F23004B32B8 /* FashionInspirationTests.xctest */,
+				195FCE8528129F23004B32B8 /* FashionInspirationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		195FCE6728129F21004B32B8 /* FashionInspiration */ = {
+			isa = PBXGroup;
+			children = (
+				193CA51A282176270092FC71 /* looks1056.json */,
+				195FCEF0281550C2004B32B8 /* Blur */,
+				195FCEE42813A4F7004B32B8 /* looks.json */,
+				195FCECC28138A46004B32B8 /* ViewModel */,
+				195FCEC72813846F004B32B8 /* Model */,
+				195FCEBD2812CAFC004B32B8 /* SwipeableView */,
+				195FCEB02812A42D004B32B8 /* HomeVC */,
+				195FCE9828129F2F004B32B8 /* Tabbar */,
+				195FCE6828129F21004B32B8 /* AppDelegate.swift */,
+				195FCE7128129F23004B32B8 /* Assets.xcassets */,
+				195FCE7328129F23004B32B8 /* LaunchScreen.storyboard */,
+				195FCE7628129F23004B32B8 /* Info.plist */,
+			);
+			path = FashionInspiration;
+			sourceTree = "<group>";
+		};
+		195FCE7E28129F23004B32B8 /* FashionInspirationTests */ = {
+			isa = PBXGroup;
+			children = (
+				195FCE7F28129F23004B32B8 /* FashionInspirationTests.swift */,
+			);
+			path = FashionInspirationTests;
+			sourceTree = "<group>";
+		};
+		195FCE8828129F23004B32B8 /* FashionInspirationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				195FCE8928129F23004B32B8 /* FashionInspirationUITests.swift */,
+				195FCE8B28129F23004B32B8 /* FashionInspirationUITestsLaunchTests.swift */,
+			);
+			path = FashionInspirationUITests;
+			sourceTree = "<group>";
+		};
+		195FCE9828129F2F004B32B8 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				195FCEA22812A212004B32B8 /* Delegates */,
+				195FCE992812A212004B32B8 /* Enums */,
+				195FCEA02812A212004B32B8 /* Extensions */,
+				195FCEA42812A212004B32B8 /* NSVAnimatedTabController.swift */,
+				195FCEA52812A212004B32B8 /* Options */,
+				195FCE9B2812A212004B32B8 /* Views */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		195FCE992812A212004B32B8 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				195FCE9A2812A212004B32B8 /* Types.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		195FCE9B2812A212004B32B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				195FCE9C2812A212004B32B8 /* AnimatedTab.swift */,
+				195FCE9D2812A212004B32B8 /* CenterItemSubOptionItem.swift */,
+				195FCE9E2812A212004B32B8 /* AnimatedTabItem.swift */,
+				195FCE9F2812A212004B32B8 /* BackgroundStackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		195FCEA02812A212004B32B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				195FCEA12812A212004B32B8 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		195FCEA22812A212004B32B8 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				195FCEA32812A212004B32B8 /* AnimatedTabBarDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		195FCEA52812A212004B32B8 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				195FCEA62812A212004B32B8 /* AnimatedTabOptions.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		195FCEB02812A42D004B32B8 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				195FCEB32812A64A004B32B8 /* HomeLooksViewController.swift */,
+				195FCEB52812A67C004B32B8 /* HomeCategorysViewController.swift */,
+				195FCEB72812A6EA004B32B8 /* MainNavigationController.swift */,
+				195FCEB92812A7A1004B32B8 /* MainHomeTabViewController.swift */,
+				195FCEBB2812AC55004B32B8 /* AnimatedTabOptionsImplementation.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		195FCEBD2812CAFC004B32B8 /* SwipeableView */ = {
+			isa = PBXGroup;
+			children = (
+				195FCEEC2813C737004B32B8 /* LookCardView.swift */,
+				195FCEBE2812CB1B004B32B8 /* ZLSwipeableViewSwift */,
+			);
+			path = SwipeableView;
+			sourceTree = "<group>";
+		};
+		195FCEBE2812CB1B004B32B8 /* ZLSwipeableViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				195FCEBF2812CB1B004B32B8 /* ViewManager.swift */,
+				195FCEC02812CB1B004B32B8 /* ZLSwipeableView.swift */,
+				195FCEC12812CB1B004B32B8 /* Scheduler.swift */,
+				195FCEC22812CB1B004B32B8 /* Direction.swift */,
+			);
+			path = ZLSwipeableViewSwift;
+			sourceTree = "<group>";
+		};
+		195FCEC72813846F004B32B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				195FCEC8281384B2004B32B8 /* LookModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		195FCECC28138A46004B32B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				195FCECF281398F6004B32B8 /* LookViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		195FCEF0281550C2004B32B8 /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				195FCEEE281550B1004B32B8 /* BlurView.swift */,
+				195FCEF1281550D8004B32B8 /* BlurImageView.swift */,
+			);
+			path = Blur;
+			sourceTree = "<group>";
+		};
+		333396EAC39B7481627BFEC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F480525411FD05F865CD2F1A /* Pods_FashionInspiration.framework */,
+				1950A36813688037B0EA7F34 /* Pods_FashionInspiration_FashionInspirationUITests.framework */,
+				9C4B7B471791DC31B45BEA88 /* Pods_FashionInspirationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BCE83CC766185807FAC5582 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68E1B528222D2CA2F566E628 /* Pods-FashionInspiration.debug.xcconfig */,
+				AA18D18AAF691A3235BB19FE /* Pods-FashionInspiration.release.xcconfig */,
+				6EDC321E64A0A5A79EE0B18D /* Pods-FashionInspiration-FashionInspirationUITests.debug.xcconfig */,
+				EA03126DB6FAE888D2A9BE21 /* Pods-FashionInspiration-FashionInspirationUITests.release.xcconfig */,
+				3BAC32E041AA44122E94E852 /* Pods-FashionInspirationTests.debug.xcconfig */,
+				73B97416B6BA2B9353E48BCA /* Pods-FashionInspirationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		195FCE6428129F21004B32B8 /* FashionInspiration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195FCE8F28129F23004B32B8 /* Build configuration list for PBXNativeTarget "FashionInspiration" */;
+			buildPhases = (
+				AA80E2CCCB5B5E50B5B5A91E /* [CP] Check Pods Manifest.lock */,
+				195FCE6128129F21004B32B8 /* Sources */,
+				195FCE6228129F21004B32B8 /* Frameworks */,
+				195FCE6328129F21004B32B8 /* Resources */,
+				EE7390F4B32E4D69EC613DFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FashionInspiration;
+			productName = FashionInspiration;
+			productReference = 195FCE6528129F21004B32B8 /* FashionInspiration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		195FCE7A28129F23004B32B8 /* FashionInspirationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195FCE9228129F23004B32B8 /* Build configuration list for PBXNativeTarget "FashionInspirationTests" */;
+			buildPhases = (
+				6C1CAEF6DD014F92E966A692 /* [CP] Check Pods Manifest.lock */,
+				195FCE7728129F23004B32B8 /* Sources */,
+				195FCE7828129F23004B32B8 /* Frameworks */,
+				195FCE7928129F23004B32B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195FCE7D28129F23004B32B8 /* PBXTargetDependency */,
+			);
+			name = FashionInspirationTests;
+			productName = FashionInspirationTests;
+			productReference = 195FCE7B28129F23004B32B8 /* FashionInspirationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		195FCE8428129F23004B32B8 /* FashionInspirationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195FCE9528129F23004B32B8 /* Build configuration list for PBXNativeTarget "FashionInspirationUITests" */;
+			buildPhases = (
+				CD67F773543D15C0B28625CC /* [CP] Check Pods Manifest.lock */,
+				195FCE8128129F23004B32B8 /* Sources */,
+				195FCE8228129F23004B32B8 /* Frameworks */,
+				195FCE8328129F23004B32B8 /* Resources */,
+				8C63F73AE78424F2CE079FFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195FCE8728129F23004B32B8 /* PBXTargetDependency */,
+			);
+			name = FashionInspirationUITests;
+			productName = FashionInspirationUITests;
+			productReference = 195FCE8528129F23004B32B8 /* FashionInspirationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		195FCE5D28129F21004B32B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					195FCE6428129F21004B32B8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					195FCE7A28129F23004B32B8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 195FCE6428129F21004B32B8;
+					};
+					195FCE8428129F23004B32B8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 195FCE6428129F21004B32B8;
+					};
+				};
+			};
+			buildConfigurationList = 195FCE6028129F21004B32B8 /* Build configuration list for PBXProject "FashionInspiration" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 195FCE5C28129F21004B32B8;
+			productRefGroup = 195FCE6628129F21004B32B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				195FCE6428129F21004B32B8 /* FashionInspiration */,
+				195FCE7A28129F23004B32B8 /* FashionInspirationTests */,
+				195FCE8428129F23004B32B8 /* FashionInspirationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		195FCE6328129F21004B32B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195FCE7528129F23004B32B8 /* LaunchScreen.storyboard in Resources */,
+				195FCEEB2813A4F7004B32B8 /* looks.json in Resources */,
+				193CA51B282176270092FC71 /* looks1056.json in Resources */,
+				195FCE7228129F23004B32B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FCE7928129F23004B32B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FCE8328129F23004B32B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C1CAEF6DD014F92E966A692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FashionInspirationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C63F73AE78424F2CE079FFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FashionInspiration-FashionInspirationUITests/Pods-FashionInspiration-FashionInspirationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FashionInspiration-FashionInspirationUITests/Pods-FashionInspiration-FashionInspirationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FashionInspiration-FashionInspirationUITests/Pods-FashionInspiration-FashionInspirationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA80E2CCCB5B5E50B5B5A91E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FashionInspiration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD67F773543D15C0B28625CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FashionInspiration-FashionInspirationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7390F4B32E4D69EC613DFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FashionInspiration/Pods-FashionInspiration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FashionInspiration/Pods-FashionInspiration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FashionInspiration/Pods-FashionInspiration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195FCE6128129F21004B32B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195FCEB82812A6EA004B32B8 /* MainNavigationController.swift in Sources */,
+				195FCEAA2812A212004B32B8 /* AnimatedTabItem.swift in Sources */,
+				195FCEEF281550B1004B32B8 /* BlurView.swift in Sources */,
+				195FCEC32812CB1B004B32B8 /* ViewManager.swift in Sources */,
+				195FCEAF2812A212004B32B8 /* AnimatedTabOptions.swift in Sources */,
+				195FCEA92812A212004B32B8 /* CenterItemSubOptionItem.swift in Sources */,
+				195FCEC42812CB1B004B32B8 /* ZLSwipeableView.swift in Sources */,
+				195FCEB42812A64A004B32B8 /* HomeLooksViewController.swift in Sources */,
+				195FCEAD2812A212004B32B8 /* AnimatedTabBarDelegate.swift in Sources */,
+				195FCEF2281550D8004B32B8 /* BlurImageView.swift in Sources */,
+				195FCE6928129F21004B32B8 /* AppDelegate.swift in Sources */,
+				195FCEC52812CB1B004B32B8 /* Scheduler.swift in Sources */,
+				195FCEAB2812A212004B32B8 /* BackgroundStackView.swift in Sources */,
+				195FCEA72812A212004B32B8 /* Types.swift in Sources */,
+				195FCEB62812A67C004B32B8 /* HomeCategorysViewController.swift in Sources */,
+				195FCEC62812CB1B004B32B8 /* Direction.swift in Sources */,
+				195FCEAE2812A212004B32B8 /* NSVAnimatedTabController.swift in Sources */,
+				195FCEED2813C737004B32B8 /* LookCardView.swift in Sources */,
+				195FCEAC2812A212004B32B8 /* UIView.swift in Sources */,
+				195FCEC9281384B2004B32B8 /* LookModel.swift in Sources */,
+				195FCEBA2812A7A1004B32B8 /* MainHomeTabViewController.swift in Sources */,
+				195FCEA82812A212004B32B8 /* AnimatedTab.swift in Sources */,
+				195FCED0281398F6004B32B8 /* LookViewModel.swift in Sources */,
+				195FCEBC2812AC55004B32B8 /* AnimatedTabOptionsImplementation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FCE7728129F23004B32B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195FCE8028129F23004B32B8 /* FashionInspirationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FCE8128129F23004B32B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195FCE8C28129F23004B32B8 /* FashionInspirationUITestsLaunchTests.swift in Sources */,
+				195FCE8A28129F23004B32B8 /* FashionInspirationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		195FCE7D28129F23004B32B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195FCE6428129F21004B32B8 /* FashionInspiration */;
+			targetProxy = 195FCE7C28129F23004B32B8 /* PBXContainerItemProxy */;
+		};
+		195FCE8728129F23004B32B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195FCE6428129F21004B32B8 /* FashionInspiration */;
+			targetProxy = 195FCE8628129F23004B32B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		195FCE7328129F23004B32B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195FCE7428129F23004B32B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		195FCE8D28129F23004B32B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		195FCE8E28129F23004B32B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		195FCE9028129F23004B32B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E1B528222D2CA2F566E628 /* Pods-FashionInspiration.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DHTB2U6AB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FashionInspiration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianjianzhu.oom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		195FCE9128129F23004B32B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA18D18AAF691A3235BB19FE /* Pods-FashionInspiration.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DHTB2U6AB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FashionInspiration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianjianzhu.oom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		195FCE9328129F23004B32B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAC32E041AA44122E94E852 /* Pods-FashionInspirationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DHTB2U6AB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.FashionInspirationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FashionInspiration.app/FashionInspiration";
+			};
+			name = Debug;
+		};
+		195FCE9428129F23004B32B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B97416B6BA2B9353E48BCA /* Pods-FashionInspirationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DHTB2U6AB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.FashionInspirationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FashionInspiration.app/FashionInspiration";
+			};
+			name = Release;
+		};
+		195FCE9628129F23004B32B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDC321E64A0A5A79EE0B18D /* Pods-FashionInspiration-FashionInspirationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DHTB2U6AB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.FashionInspirationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FashionInspiration;
+			};
+			name = Debug;
+		};
+		195FCE9728129F23004B32B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA03126DB6FAE888D2A9BE21 /* Pods-FashionInspiration-FashionInspirationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DHTB2U6AB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.FashionInspirationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FashionInspiration;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		195FCE6028129F21004B32B8 /* Build configuration list for PBXProject "FashionInspiration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195FCE8D28129F23004B32B8 /* Debug */,
+				195FCE8E28129F23004B32B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195FCE8F28129F23004B32B8 /* Build configuration list for PBXNativeTarget "FashionInspiration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195FCE9028129F23004B32B8 /* Debug */,
+				195FCE9128129F23004B32B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195FCE9228129F23004B32B8 /* Build configuration list for PBXNativeTarget "FashionInspirationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195FCE9328129F23004B32B8 /* Debug */,
+				195FCE9428129F23004B32B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195FCE9528129F23004B32B8 /* Build configuration list for PBXNativeTarget "FashionInspirationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195FCE9628129F23004B32B8 /* Debug */,
+				195FCE9728129F23004B32B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 195FCE5D28129F21004B32B8 /* Project object */;
+}

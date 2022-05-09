@@ -1,0 +1,6 @@
+node_modules/
+ios/Pods
+ios/Pods/
+## Build generated
+build/
+DerivedData/
